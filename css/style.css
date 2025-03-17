@@ -133,6 +133,22 @@ img {
     width: 768px;
   }
 }
-
-/* DA 480PX IN GIU 
-@media screen and (max-width: 480px)*/
+/* DA 480PX IN GIU */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .site-header {
+    width: 100%;
+    margin-left: 3rem;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .lessons .col {
+    width: 100%;
+  }
+  .lessons .col:first-child {
+    padding-bottom: 3.5rem;
+  }
+}
