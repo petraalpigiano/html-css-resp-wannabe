@@ -136,12 +136,13 @@ img {
 /* DA 480PX IN GIU */
 @media screen and (max-width: 480px) {
   .container,
-  .steps {
-    width: 480px;
+  .steps,
+  .why-us {
+    max-width: 480px;
+    width: 100%;
   }
   .site-header {
     width: 100%;
-    margin-left: 3rem;
   }
   .row {
     flex-wrap: wrap;
@@ -152,6 +153,9 @@ img {
   .lessons .col:first-child {
     padding-bottom: 3.5rem;
   }
+  .steps {
+    margin-bottom: 0;
+  }
   .steps .col {
     width: 100%;
   }
@@ -160,5 +164,17 @@ img {
   }
   .steps .col:nth-child(2) {
     padding-bottom: 3.5rem;
+  }
+  .why-us {
+    background-color: #222222;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  .why-us .col {
+    width: 100%;
+  }
+  .why-us .col-left {
+    margin-bottom: 4rem;
   }
 }
