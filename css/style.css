@@ -129,8 +129,8 @@ img {
  ************************************************/
 /* DA 768PX IN GIU */
 @media screen and (max-width: 768px) {
-  .site-header {
-    margin-left: 23rem;
+  .container {
+    width: 768px;
   }
 }
 
