@@ -135,7 +135,8 @@ img {
 }
 /* DA 480PX IN GIU */
 @media screen and (max-width: 480px) {
-  .container {
+  .container,
+  .steps {
     width: 480px;
   }
   .site-header {
@@ -149,6 +150,15 @@ img {
     width: 100%;
   }
   .lessons .col:first-child {
+    padding-bottom: 3.5rem;
+  }
+  .steps .col {
+    width: 100%;
+  }
+  .steps .col:first-child {
+    padding-bottom: 3.5rem;
+  }
+  .steps .col:nth-child(2) {
     padding-bottom: 3.5rem;
   }
 }
